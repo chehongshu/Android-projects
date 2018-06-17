@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="#707070"
+        android:id="@+id/parameter_sheet">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="飞行高度"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:id="@+id/textView2" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:ems="10"
+                android:id="@+id/flight_height" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="飞行时间"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView3"
+                android:textColor="#FFFFFF"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:ems="10"
+                android:id="@+id/flight_speed" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            >
+
+            <TextView
+                android:text=" 朝向 "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView5"
+                android:textColor="#FFFFFF"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:ems="10"
+                android:id="@+id/flight_direction" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

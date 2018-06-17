@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66CDAA">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/biaoti"
+        android:id="@+id/imageView8"
+        android:layout_marginTop="108dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text=" "
+        android:layout_width="95dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="36dp"
+        android:id="@+id/login_button"
+        android:background="@drawable/denglu"
+        android:layout_marginEnd="18dp"
+        android:layout_below="@+id/password"
+        android:layout_alignEnd="@+id/imageView7" />
+
+    <ImageView
+        android:layout_width="135dp"
+        android:layout_height="150dp"
+        android:background="@drawable/logo"
+        android:id="@+id/imageView7"
+        android:layout_marginStart="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/password" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/password"
+        tools:background="@android:color/background_light"
+        android:layout_marginTop="13dp"
+        android:hint="密码"
+        android:layout_below="@+id/acount"
+        android:layout_alignEnd="@+id/imageView8" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/acount"
+        tools:background="@android:color/background_light"
+
+        android:hint="用户名"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/imageView8" />
+</RelativeLayout>
