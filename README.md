@@ -9,6 +9,7 @@ Various projects about Android
 4. 主线程实现数据UI显示
 5. 利用tabhost进行不同activity互相切换
 6. 与网页链接代码
+7. 调用高德地图api， 通过ble蓝牙得到无人机的gps信息，并将无人机实时的位置显示在手机的高德地图上
 
 ## UWB_che
 本人本科三年级项目
